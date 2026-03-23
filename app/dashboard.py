@@ -25,12 +25,13 @@ def main():
     # 4. Inicialização do Motor
     engine = MarketingEngine()
 
-    # Botão de Atualização (Simula o Pipeline ETL)
+# Botão de Atualização (Simula o Pipeline ETL)
     if st.sidebar.button("🔄 Sincronizar Dados da API"):
         with st.spinner("Extraindo e Carregando dados..."):
             raw_data = extract_marketing_data()
             save_to_database(raw_data)
             st.sidebar.success("Dados Sincronizados!")
+            st.rerun()  # <--- ADICIONE ESTA LINHA AQUI
 
     # 5. Processamento de Dados
     df_raw = engine.get_raw_data()
