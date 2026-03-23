@@ -1,45 +1,59 @@
-# 📊 Marketing Performance Intelligence (MPI)
+# 🚀 Marketing Intelligence System | Growth Engineering Edition
 
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![Streamlit](https://img.shields.io/badge/ui-streamlit-ff4b4b.svg)](https://streamlit.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Status](https://img.shields.io/badge/Status-MVP_Functional-green)
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Streamlit](https://img.shields.io/badge/Interface-Streamlit-red)
+![Security](https://img.shields.io/badge/Security-Zero_Trust-black)
 
-**Sistema Inteligente de Atribuição e Otimização de Capital para Marketing de Performance.**
+**Transformando dados brutos de tráfego em decisões financeiras de alta precisão.**
+
+Este projeto é uma prova de conceito (PoC) de uma infraestrutura profissional de **Growth Engineering**. Ele resolve o maior problema de empresas e agências que investem alto em anúncios: a falta de clareza sobre o ROI real e o Payback por canal.
+
+---
+
+## 🧠 A Lógica de Negócio (Business Intelligence)
+
+Diferente de dashboards convencionais, este sistema aplica **Clean Architecture** e **Engenharia Financeira** para entregar:
+
+* **Atribuição Blindada:** Cruzamento de dados para evitar "métricas de vaidade".
+* **Cálculo de Payback Dinâmico:** Identificação exata de quanto tempo cada real investido leva para retornar ao caixa.
+* **Insights Prescritivos:** O motor de inteligência aponta automaticamente onde escalar e onde cortar custos.
+* **Segurança DevSecOps:** Isolamento total de credenciais via variáveis de ambiente e cofre de segredos.
 
 ---
 
-## 🎯 Visão Estratégica
-Diferente de dashboards comuns que focam em métricas de vaidade (likes, cliques), o **MPI** foi desenhado para **Arquitetos de Growth**. Ele foca na **Eficiência do Capital**, identificando onde cada real investido gera o maior retorno marginal.
+## 🛠️ Stack Técnica & Arquitetura
 
-## 🧠 Arquitetura do Sistema
-O projeto segue o modelo **ETL (Extract, Transform, Load)** modularizado:
-1. **Extraction:** Coleta de dados via APIs (Google/Meta Ads) ou Mock Data para desenvolvimento.
-2. **Transformation:** Motor de cálculo de KPIs (CAC, LTV, ROI, ROAS) com sanitização de dados.
-3. **Loading:** Armazenamento em Data Warehouse (SQLite para Local / BigQuery para Cloud).
-4. **Visualization:** Interface reativa em Streamlit com diagnóstico prescritivo.
+O sistema foi construído seguindo rigorosos padrões de **Sênior Software Engineering**:
 
-
-
-## 🛠️ Stack Tecnológica
-- **Linguagem:** Python 3.10+
-- **Processamento:** Pandas / NumPy
-- **Interface:** Streamlit (UI/UX de Alta Conversão)
-- **Banco de Dados:** SQLite (Dev) / Google BigQuery (Prod)
-- **Segurança:** Protocolo de isolamento de credenciais via `.env`
-
-## 🔒 Protocolo de Segurança (DevSecOps)
-Este repositório aplica práticas rigorosas de segurança:
-- **Zero Trust:** Nenhuma credencial é armazenada no código (Hardcoded).
-- **Environment Isolation:** Arquivos sensíveis protegidos via `.gitignore`.
-- **Input Validation:** Tratamento de `ZeroDivisionError` e dados corrompidos.
-
-## 🚀 Como Executar
-1. Clone o repositório: `git clone ...`
-2. Crie o ambiente virtual: `python -m venv venv`
-3. Ative a venv: `source venv/bin/activate` (Linux/Mac) ou `venv\Scripts\activate` (Win)
-4. Instale as dependências: `pip install -r requirements.txt`
-5. Configure o seu arquivo `.env` baseado no `.env.example`
-6. Execute o app: `streamlit run app/dashboard.py`
+* **Linguagem:** Python (Pandas, NumPy, SQLite).
+* **Arquitetura:** Modular (Core Engine, Data Layer, UI Layer).
+* **Segurança:** Protocolo Zero Trust com gestão de segredos (.env / Secrets).
+* **Deploy:** CI/CD via GitHub Actions e Streamlit Cloud.
+* **Qualidade:** Testes automatizados de lógica de marketing.
 
 ---
-*Desenvolvido para operações de Marketing High Ticket.*
+
+## 📈 Resultados Visualizados
+
+O Dashboard entrega em tempo real:
+1.  **KPIs Executivos:** Receita, Investimento, ROI e Payback.
+2.  **Gráficos de Performance:** Comparativo de eficiência marginal por canal.
+3.  **Relatórios Exportáveis:** Auditoria de dados brutos formatada para apresentações C-Level.
+
+---
+
+## 💼 Contato & Consultoria
+
+Este repositório é uma versão **Open Core** (Demonstração de Autoridade). Possuo uma infraestrutura avançada (Privada) que inclui:
+* ✅ Integração Real via API (Google Ads, Meta Ads, TikTok Ads).
+* ✅ Data Warehouse em **Google BigQuery** (Escala de milhões de linhas).
+* ✅ Modelos de **IA Preditiva** para antecipação de LTV e Churn.
+
+**Deseja implementar esta inteligência na sua operação ou agência?**
+
+📩 **Email:** [alexandreferreiravisgueira@gmail.com](mailto:alexandreferreiravisgueira@gmail.com)  
+🔗 **LinkedIn:** [Alexandre Ferreira](https://www.linkedin.com/in/alexandre-ferreira-094382384)
+
+---
+*Desenvolvido com foco em alta performance, ROI e segurança por Alexandre Ferreira.*
