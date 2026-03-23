@@ -1,0 +1,19 @@
+# Python & Virtual Environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Segurança (ESSENCIAL)
+.env
+.env.*
+!.env.example
+
+# Bancos de Dados Locais
+*.db
+*.sqlite3
+
+# Logs e IDEs
+*.log
+.vscode/
+.streamlit/
