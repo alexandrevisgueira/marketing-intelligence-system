@@ -2,8 +2,8 @@ import pandas as pd
 import sqlite3
 from pathlib import Path
 
-# Caminho para o banco de dados (mesmo do loader.py)
-DB_PATH = Path(__file__).resolve().parent.parent / "marketing_api_platform.db"
+# Versão universal para Local (Windows) e Cloud (Linux)
+DB_PATH = Path.cwd() / "marketing_api_platform.db"
 
 class MarketingEngine:
     """Motor de Inteligência para análise de ROI e Otimização de Budget."""

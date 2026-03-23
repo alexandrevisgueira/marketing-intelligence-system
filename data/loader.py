@@ -2,8 +2,8 @@ import sqlite3
 import pandas as pd
 from pathlib import Path
 
-# Define o caminho do banco de dados na raiz
-DB_PATH = Path(__file__).resolve().parent.parent / "marketing_api_platform.db"
+# Versão universal para Local (Windows) e Cloud (Linux)
+DB_PATH = Path.cwd() / "marketing_api_platform.db"
 
 def save_to_database(df: pd.DataFrame, table_name: str = "raw_campaign_data"):
     """Salva o DataFrame no banco de dados SQLite."""
